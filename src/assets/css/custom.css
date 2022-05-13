@@ -1,0 +1,307 @@
+/*@import "fonts";*/
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    background-color: #313335;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 140px;
+    font-weight: 500;
+    padding-top: 130px;
+    margin-bottom: -35px;
+}
+
+h2 {
+    font-size: 45px;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-area-wrapper {
+    background-color: white;
+    color: black;
+}
+
+.contact-container {
+    background-color: white;
+}
+
+.content-section {
+    background-color: white;
+}
+
+.content-block {
+    text-align: left;
+    color: black;
+}
+
+.content-block .title {
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.step-block {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.step-circle {
+    background-color: #020202;
+    width: 100%;
+    padding-left: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+.step-number {
+    color: #cbcbcb;
+    font-size: 25px;
+    font-weight: 2500;
+}
+
+.step-content-block {
+    margin-left: 10px;
+}
+
+.step-content-block .subtitle {
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.step-content-block .txt {
+    color: #1e2125;
+    font-style: italic;
+}
+
+.terms-conditions-container {
+    background-color: white;
+}
+
+.policy-container {
+    background-color: white;
+    text-align: left;
+}
+
+.policy_text_div {
+    text-align: center;
+}
+
+.policy_text_2022 {
+    color: #a9a9a9;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.policy_text {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.about-container {
+    text-align: center;
+    margin: 40px;
+    width: 1200px;
+    color: black;
+}
+
+.about-us-text {
+    color: black;
+    text-align: left;
+}
+
+.faq-text {
+    color: black;
+}
+
+.faq-text-btp {
+    text-align: left;
+}
+
+.phone-number,
+.icon-user, .icon-magnifier, .icon-bag2, .icon-heart, .icon-telephone, .icon-plus {
+    color: black;
+}
+
+.phone-number:hover,
+.icon-user:hover, .icon-magnifier:hover, .icon-bag2:hover, .icon-heart:hover, .icon-telephone:hover {
+    color: #dcb14a;
+}
+
+.slider_desc, .about-container h3 {
+    color: #f4f5f7;
+    font-size: 40px;
+    font-family: "Mr De Haviland", cursive;
+}
+
+.about-container h3 {
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.brands {
+    display: flex;
+}
+
+.slider-img {
+    position: relative;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+
+}
+
+.slider-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.layout {
+    position: absolute;
+    width: 100%;
+    padding: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon-chevron-right, .icon-chevron-left {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.brand-img {
+    width: 350px;
+}
+
+.loading {
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.modal-btn {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+.modal-btn button{
+    border: none;
+    color: black;
+    background-color: transparent;
+
+}
+.details-text{
+    font-size: 14px;
+}
+
+.input-text {
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 18px;
+}
+
+.items-count {
+    border: none;
+    color: black;
+    width: 40px;
+    background-color: transparent;
+    font-size: 17px;
+}
+.error-text{
+    color: red;
+    text-align: left;
+    font-size: 15px;
+}
+
+.reg-text {
+    color: #1e8050;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.cart-quality .quickview-cart-box{
+    padding-left: 40px;
+}
+
+.order {
+    display: flex;
+    height: 44px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+    width: 120px;
+    text-align: center;
+}
+
+.product-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: black;
+}
+
+.product-pagination li {
+    padding: 0 12px;
+    height: 32px;
+    text-align: center;
+    margin: auto 4px;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    letter-spacing: 0.01071em;
+    border-radius: 16px;
+    line-height: 1.43;
+    font-size: 16px;
+    min-width: 32px;
+}
+
+.product-pagination li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    cursor: default;
+}
+
+.newProduct {
+    border: none;
+    color: white;
+    background-color: #dcb14a;
+    padding: 10px;
+}
+
+.newProduct_div {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
